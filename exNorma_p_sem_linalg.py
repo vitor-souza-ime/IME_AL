@@ -6,6 +6,6 @@ def norma_p_matriz_2por2(matriz, p):
     return norma
 
 matriz_2por2 = np.array([[1, 2], [3, 4]])
-p = 2  # Define o valor de p
+p = 2 
 resultado = norma_p_matriz_2por2(matriz_2por2, p)
 print("Norma-{} da matriz:".format(p), resultado)
